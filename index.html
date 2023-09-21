@@ -9,6 +9,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./api/api.js"></script>
 
   <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <script src="assets/js/jquery.min.js"></script>
@@ -65,8 +66,9 @@
       <div class="col-sm-4">
         <h3>Scott Adkins</h3>
         <p>Scott Edward Adkins é um ator, produtor, roteirista e artista marcial britânico.</p>
-        <p>Ele interpretou o lutador de prisão russo Yuri Boyka no filme de 2006 O Imbatível 2 e suas duas sequências, O Imbatível 3:</p>
+        <p id="publicacao">Ele interpretou o lutador de prisão russo Yuri Boyka no filme de 2006 O Imbatível 2 e suas duas sequências, O Imbatível 3:</p>
         <img class="img-fluid" src="assets/img/pessoa10.webp" />
+        <button class="btn btn-primary d-flex flex-row" type="button" aria-label="Nova Postagem" onclick="getQuote()"> Nova postagem</button>
       </div>
       <div class="col-sm-4">
         <h3>Michael Jai White</h3>
